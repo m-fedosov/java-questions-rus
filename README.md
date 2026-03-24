@@ -305,7 +305,7 @@ new Random().ints(1, 20+1).parallel().distinct().limit(5).sequntial().sum(); // 
 Модель памяти в Java, используемая внутри JVM, делит память на стеки потоков (**thread stacks**) и кучу (**heap**).
 
 Все потоки, работающие в JVM, имеют свой стек:
-![Стеки потоков](thread_stack.png)
+![Стеки потоков](images/thread_stack.png)
 
 Стек потока содержит:
 * Стек вызова (какие методы вызвал поток)
@@ -336,12 +336,12 @@ new Random().ints(1, 20+1).parallel().distinct().limit(5).sequntial().sum(); // 
 
 Есть 3 семейства как можно работать с БД:
 * **JDBC** (В Java мире это один способ, всё остальное - надстройка) и jdbcTemplate
-![jdbc](jdbc.png)
+![jdbc](images/jdbc.png)
 * Query Builder - **jooq** (жук)
-![jook](jook.png)
+![jook](images/jook.png)
 * **ORM** (Hibernate, Object Relational Maping)
-![orm 1](orm_1.png)
-![orm 2](orm_2.png)
+![orm 1](images/orm_1.png)
+![orm 2](images/orm_2.png)
 
 ### Как остановить поток Java
 
